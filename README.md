@@ -42,7 +42,3 @@ This project is a simple implementation of the classic Tic-Tac-Toe game using HT
 
 ---
 
-## Technology Stack
-- **HTML**: For structuring the game board.
-- **CSS**: For styling the game board and buttons.
-- **JavaScript**: For implementing game logic and interactivity.
