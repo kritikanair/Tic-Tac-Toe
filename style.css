@@ -49,6 +49,19 @@ body {
     color: white;
     border: 3px solid black;
     cursor: pointer;
+    transition: all 0.15s ease; /* smooth animation */
+}
+
+/* When hovered */
+.reset:hover {
+    transform: scale(1.05); /* slightly pop up */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* add shadow */
+}
+
+/* When clicked */
+.reset:active {
+    transform: scale(0.95); /* slightly press down */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* reduce shadow */
 }
 
 .winnerPlayer {
@@ -76,6 +89,17 @@ body {
     color: white;
     border: 3px solid black;
     cursor: pointer;
+    transition: all 0.15s ease; 
+}
+
+.newGame:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.newGame:active {
+    transform: scale(0.95); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .hide {
